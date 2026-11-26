@@ -1,20 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>MyPortfolio/Projects</title>
+        <title>MyPortfolio/About</title>
         <style>
-            body {padding-top: 20px;  padding-left: 10px;}
+            h1 {
+                font-size: 70px; 
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                color:black;
+                text-align: center;
+            }
+            h2 {
+                font-size: 45px;
+                color:black
+            }
+            p {font-size: 20px;}
             a {
                 font-size: 20px; 
                 font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
                 color: crimson;
             }
+            body {background-color: #F8EEE0;}
+            hr.one {padding-bottom: 10px; border: none;}
+            img.border {border: #180f02, solid, 5px;}
         </style>
     </head>
     <body>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="projects.html">Projects&Skills</a>
-        <p> Hohohoho</p>
+        <div style="position: fixed; left: 0%; bottom: -5%;">
+        <img src="images/Decor3.svg" alt="Bubbles" style="width:400px;height:400px;"> 
+        </div>  
+        <div style="position: fixed; right: 0%; top: -5%;">
+        <img src="images/Decor4.svg" alt="Bubbles" style="width:400px;height:400px;"> 
+        </div>  
+
+        <div style="padding: 20px 0px 0px 10px;">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects&Skills</a>
+            <a href="contact.html">Contact</a>
+            <a href="fun.html">FUN</a>
+        </div>
+
+        <div>
+            <div style="text-align: center;">
+                <div>
+                    <h1>Skills</h1>
+                    <p> I have skills in programing with languages such as Python, and HTML</p>
+                    <p>I have experience with making video games and creating art for them</p>
+                </div>
+                <div>
+                    <h1>Projects</h2>
+                    <div>
+                        <h2>Some art I made</h2>
+                        <img class="border" src="images/That's A Magic Number.png" alt="Pixel Art image of a magician's hat" style="width:200px;height:184px;">
+                    </div>
+                    <div>
+                        <h2>A little animation</h2>
+                        <img class="border" src="images/Image1.gif" alt="laughing animation" style="width:200px;height:184px;">
+                    </div>
+                    <div style="text-align: center;">
+                        <h2>Here's a game I made</h2>
+                        <a href="https://wavebirdgames.itch.io/into-the-pyre">IntoThePyre</a>
+                        <br>
+                        <img class="border" src="images/TitlePage.png" alt="Titlecard for Game" style="width:200px;height:184px;">
+                    </div>
+                    <div>
+                        <h2>And a Drum Beat</h2>
+                        <audio controls loop style="padding-bottom: 60px;"> <source src="drums.wav" type="audio/wav"> </audio>
+                    </div>
+                </div>
+            </div>  
+        </div>
+
     </body>
 </html>

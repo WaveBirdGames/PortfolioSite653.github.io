@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>MyPortfolio/About</title>
+        <style>
+            h1 {
+                font-size: 70px; 
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                color:black;
+                text-align: center;
+            }
+            h2 {
+                font-size: 45px;
+                color:black
+            }
+            p {font-size: 20px;}
+            a {
+                font-size: 20px; 
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                color: crimson;
+            }
+            td, th {
+                border:#180f02 solid 5px;
+                background-color: #F8EEE0;
+            }
+            th {
+                padding-top: 12px;
+                padding-bottom: 12px;
+                text-align: left;
+                background-color: #eb9861;
+                color: #ffffff;
+            }
+
+            body {background-color: #F8EEE0;}
+            hr.one {padding-bottom: 10px; border: none;}
+            img.border {border: #180f026c, solid, 3px;}
+        </style>
+    </head>
+    <body>
+        <div style="position: fixed; left: 0%; bottom: -5%;">
+        <img src="images/Decor3.svg" alt="Bubbles" style="width:400px;height:400px;"> 
+        </div>  
+        <div style="position: fixed; right: 0%; top: -5%;">
+        <img src="images/Decor4.svg" alt="Bubbles" style="width:400px;height:400px;"> 
+        </div>  
+
+        <div style="padding: 20px 0px 0px 10px;">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects&Skills</a>
+            <a href="contact.html">Contact</a>
+            <a href="fun.html">FUN</a>
+        </div>
+
+        <div style="text-align: center;">
+            <div>
+                <p><strong>Here's some Buttons</strong></p>
+                <input type="radio" id="1" name="pushy">
+                <label for="1">You Can Push This One</label>
+                <input type="radio" id="2" name="pushy">
+                <label for="2">And This One</label>
+            </div>
+            <div>
+                <p><strong>Here's a Kitchen Table</strong></p>
+                <!--IT'S A PUN!!!!!!!-->
+                <table style="padding-left: 42.5%;">
+                    <tr>
+                        <th>Kitchen</th>
+                        <th>Kitchen</th>
+                        <th>Kitchen</th>
+                    </tr>
+                    <tr>
+                        <td>Kitchen</td>
+                        <td>Kitchen</td>
+                        <td>Kitchen</td>
+                    </tr>
+                    <tr>
+                        <td>Kitchen</td>
+                        <td>Kitchen</td>
+                        <td>Kitchen</td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <br>
+                <from action="/my-form-info.php" method="POST">
+                <fieldset>
+                    <legend> HERE'S A FORM</legend>
+                    <p>NAME</p>
+                    <input type="text">
+                    <hr>
+                    <p>Date</p>
+                    <input type="date">
+                    <hr>
+                    <p>PHONE NUMBER</p>
+                    <input type="tel">
+                    <hr>
+                    <input type="submit">
+
+                </fieldset>
+            </from>
+            </div>
+        </div>
+
+    </body>
+</html>
